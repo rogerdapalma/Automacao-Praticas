@@ -65,11 +65,11 @@ def main(timer_duration=10):
         log_action("Esperando após pressionar", '1', wait_time)
         wait_with_countdown(wait_time)
 
-        # Pressiona 'G' com espera aleatória
-        wait_time = random.uniform(6.5, 7.5)
-        press_key('g')
-        log_action("Esperando após pressionar", 'g', wait_time)
-        wait_with_countdown(wait_time)
+        # # Pressiona 'G' com espera aleatória
+        # wait_time = random.uniform(6.5, 7.5)
+        # press_key('g')
+        # log_action("Esperando após pressionar", 'g', wait_time)
+        # wait_with_countdown(wait_time)
 
         # Pressiona SHIFT com espera aleatória
         wait_time = random.uniform(6.1, 6.2)
